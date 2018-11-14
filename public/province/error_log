@@ -1,0 +1,2 @@
+[24-Oct-2018 16:38:15 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/asyste3/wouu.com.ar/province/provinces.php on line 23
+[24-Oct-2018 16:38:15 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/asyste3/wouu.com.ar/province/provinces.php on line 25

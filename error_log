@@ -1,0 +1,95 @@
+[02-Oct-2018 04:44:31 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/asyste3/wouu.com.ar/xd3/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 494
+[02-Oct-2018 05:11:35 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/asyste3/wouu.com.ar/comprobar.php on line 9
+[02-Oct-2018 05:11:35 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/asyste3/wouu.com.ar/comprobar.php on line 14
+[02-Oct-2018 05:11:35 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/asyste3/wouu.com.ar/comprobar.php on line 9
+[02-Oct-2018 05:11:35 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/asyste3/wouu.com.ar/comprobar.php on line 14
+[02-Oct-2018 05:11:35 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/asyste3/wouu.com.ar/comprobar.php on line 9
+[02-Oct-2018 05:11:35 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/asyste3/wouu.com.ar/comprobar.php on line 14
+[02-Oct-2018 05:11:36 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/asyste3/wouu.com.ar/comprobar.php on line 9
+[02-Oct-2018 05:11:36 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/asyste3/wouu.com.ar/comprobar.php on line 14
+[02-Oct-2018 05:11:36 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/asyste3/wouu.com.ar/comprobar.php on line 9
+[02-Oct-2018 05:11:36 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/asyste3/wouu.com.ar/comprobar.php on line 14
+[02-Oct-2018 05:11:36 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/asyste3/wouu.com.ar/comprobar.php on line 9
+[02-Oct-2018 05:11:36 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/asyste3/wouu.com.ar/comprobar.php on line 14
+[02-Oct-2018 12:40:51 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/asyste3/wouu.com.ar/comprobar.php on line 9
+[02-Oct-2018 12:40:51 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/asyste3/wouu.com.ar/comprobar.php on line 14
+[02-Oct-2018 12:40:51 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/asyste3/wouu.com.ar/comprobar.php on line 9
+[02-Oct-2018 12:40:51 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/asyste3/wouu.com.ar/comprobar.php on line 14
+[02-Oct-2018 12:40:52 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/asyste3/wouu.com.ar/comprobar.php on line 9
+[02-Oct-2018 12:40:52 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/asyste3/wouu.com.ar/comprobar.php on line 14
+[02-Oct-2018 12:40:52 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/asyste3/wouu.com.ar/comprobar.php on line 9
+[02-Oct-2018 12:40:52 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/asyste3/wouu.com.ar/comprobar.php on line 14
+[02-Oct-2018 12:40:52 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/asyste3/wouu.com.ar/comprobar.php on line 9
+[02-Oct-2018 12:40:52 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/asyste3/wouu.com.ar/comprobar.php on line 14
+[02-Oct-2018 12:40:53 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/asyste3/wouu.com.ar/comprobar.php on line 9
+[02-Oct-2018 12:40:53 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/asyste3/wouu.com.ar/comprobar.php on line 14
+[02-Oct-2018 12:40:53 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/asyste3/wouu.com.ar/comprobar.php on line 9
+[02-Oct-2018 12:40:53 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/asyste3/wouu.com.ar/comprobar.php on line 14
+[02-Oct-2018 12:40:53 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/asyste3/wouu.com.ar/comprobar.php on line 9
+[02-Oct-2018 12:40:53 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/asyste3/wouu.com.ar/comprobar.php on line 14
+[02-Oct-2018 12:40:53 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/asyste3/wouu.com.ar/comprobar.php on line 9
+[02-Oct-2018 12:40:53 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/asyste3/wouu.com.ar/comprobar.php on line 14
+[02-Oct-2018 12:40:54 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/asyste3/wouu.com.ar/comprobar.php on line 9
+[02-Oct-2018 12:40:54 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/asyste3/wouu.com.ar/comprobar.php on line 14
+[02-Oct-2018 12:40:54 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/asyste3/wouu.com.ar/comprobar.php on line 9
+[02-Oct-2018 12:40:54 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/asyste3/wouu.com.ar/comprobar.php on line 14
+[02-Oct-2018 12:40:55 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/asyste3/wouu.com.ar/comprobar.php on line 9
+[02-Oct-2018 12:40:55 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/asyste3/wouu.com.ar/comprobar.php on line 14
+[02-Oct-2018 12:40:55 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/asyste3/wouu.com.ar/comprobar.php on line 9
+[02-Oct-2018 12:40:55 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/asyste3/wouu.com.ar/comprobar.php on line 14
+[02-Oct-2018 12:40:56 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/asyste3/wouu.com.ar/comprobar.php on line 9
+[02-Oct-2018 12:40:56 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/asyste3/wouu.com.ar/comprobar.php on line 14
+[02-Oct-2018 12:40:56 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/asyste3/wouu.com.ar/comprobar.php on line 9
+[02-Oct-2018 12:40:56 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/asyste3/wouu.com.ar/comprobar.php on line 14
+[02-Oct-2018 12:42:11 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/asyste3/wouu.com.ar/comprobar.php on line 9
+[02-Oct-2018 12:42:11 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/asyste3/wouu.com.ar/comprobar.php on line 14
+[02-Oct-2018 12:42:12 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/asyste3/wouu.com.ar/comprobar.php on line 9
+[02-Oct-2018 12:42:12 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/asyste3/wouu.com.ar/comprobar.php on line 14
+[02-Oct-2018 12:42:13 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/asyste3/wouu.com.ar/comprobar.php on line 9
+[02-Oct-2018 12:42:13 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/asyste3/wouu.com.ar/comprobar.php on line 14
+[02-Oct-2018 12:42:13 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/asyste3/wouu.com.ar/comprobar.php on line 9
+[02-Oct-2018 12:42:13 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/asyste3/wouu.com.ar/comprobar.php on line 14
+[02-Oct-2018 12:42:13 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/asyste3/wouu.com.ar/comprobar.php on line 9
+[02-Oct-2018 12:42:13 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/asyste3/wouu.com.ar/comprobar.php on line 14
+[02-Oct-2018 12:42:14 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/asyste3/wouu.com.ar/comprobar.php on line 9
+[02-Oct-2018 12:42:14 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/asyste3/wouu.com.ar/comprobar.php on line 14
+[02-Oct-2018 12:42:14 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/asyste3/wouu.com.ar/comprobar.php on line 9
+[02-Oct-2018 12:42:14 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/asyste3/wouu.com.ar/comprobar.php on line 14
+[02-Oct-2018 16:18:24 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/asyste3/wouu.com.ar/comprobarPass.php on line 11
+[02-Oct-2018 16:18:24 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/asyste3/wouu.com.ar/comprobarPass.php on line 16
+[02-Oct-2018 16:18:24 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/asyste3/wouu.com.ar/comprobarPass.php on line 11
+[02-Oct-2018 16:18:24 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/asyste3/wouu.com.ar/comprobarPass.php on line 16
+[02-Oct-2018 16:18:25 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/asyste3/wouu.com.ar/comprobarPass.php on line 11
+[02-Oct-2018 16:18:25 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/asyste3/wouu.com.ar/comprobarPass.php on line 16
+[02-Oct-2018 16:18:25 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/asyste3/wouu.com.ar/comprobarPass.php on line 11
+[02-Oct-2018 16:18:25 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/asyste3/wouu.com.ar/comprobarPass.php on line 16
+[03-Oct-2018 14:16:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/asyste3/wouu.com.ar/activate.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/asyste3/wouu.com.ar/activate.php on line 9
+[16-Oct-2018 13:00:59 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\PaginasController::logout() in /home/asyste3/wouu.com.ar/xd3/app/Http/Controllers/PaginasController.php on line 45
+[16-Oct-2018 13:01:03 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\PaginasController::logout() in /home/asyste3/wouu.com.ar/xd3/app/Http/Controllers/PaginasController.php on line 45
+[16-Oct-2018 13:01:08 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\PaginasController::logout() in /home/asyste3/wouu.com.ar/xd3/app/Http/Controllers/PaginasController.php on line 45
+[26-Oct-2018 14:04:56 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/asyste3/wouu.com.ar/xd3/app/Http/Controllers/PaginasController.php on line 9
+[26-Oct-2018 14:05:25 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/asyste3/wouu.com.ar/xd3/app/Http/Controllers/PaginasController.php on line 5
+[31-Oct-2018 19:22:41 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 199245824 bytes) in /home/asyste3/wouu.com.ar/xd3/storage/framework/views/a2f2ae3b6a7142243ab5fceab7e911eca03bb35e.php on line 489
+[31-Oct-2018 19:22:41 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 199364608 bytes) in /home/asyste3/wouu.com.ar/xd3/vendor/symfony/http-foundation/Response.php on line 356
+[31-Oct-2018 22:40:33 UTC] PHP Fatal error:  Can't use function return value in write context in /home/asyste3/wouu.com.ar/xd3/storage/framework/views/a2f2ae3b6a7142243ab5fceab7e911eca03bb35e.php on line 233
+[31-Oct-2018 22:41:47 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/asyste3/wouu.com.ar/xd3/storage/framework/views/a2f2ae3b6a7142243ab5fceab7e911eca03bb35e.php on line 232
+[31-Oct-2018 22:41:51 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/asyste3/wouu.com.ar/xd3/storage/framework/views/a2f2ae3b6a7142243ab5fceab7e911eca03bb35e.php on line 232
+[06-Nov-2018 17:14:40 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/asyste3/wouu.com.ar/xd3/app/Http/Controllers/contratoController.php on line 10
+[09-Nov-2018 21:56:07 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 49152 bytes) in /home/asyste3/wouu.com.ar/xd3/storage/framework/views/33860709c93b885ec88121f8e60938b99cb1d32e.php on line 520
+[09-Nov-2018 21:56:08 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 147456 bytes) in /home/asyste3/wouu.com.ar/xd3/vendor/composer/ClassLoader.php on line 444
+[09-Nov-2018 21:56:08 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 114688 bytes) in Unknown on line 0
+[09-Nov-2018 21:56:25 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 49152 bytes) in /home/asyste3/wouu.com.ar/xd3/storage/framework/views/33860709c93b885ec88121f8e60938b99cb1d32e.php on line 520
+[09-Nov-2018 21:56:25 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 147456 bytes) in /home/asyste3/wouu.com.ar/xd3/vendor/composer/ClassLoader.php on line 444
+[09-Nov-2018 21:56:25 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 114688 bytes) in Unknown on line 0
+[09-Nov-2018 21:56:47 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 49152 bytes) in /home/asyste3/wouu.com.ar/xd3/storage/framework/views/33860709c93b885ec88121f8e60938b99cb1d32e.php on line 520
+[09-Nov-2018 21:56:47 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 147456 bytes) in /home/asyste3/wouu.com.ar/xd3/vendor/composer/ClassLoader.php on line 444
+[09-Nov-2018 21:56:47 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 114688 bytes) in Unknown on line 0
+[09-Nov-2018 21:57:06 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) in /home/asyste3/wouu.com.ar/xd3/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 332
+[09-Nov-2018 21:57:06 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 32768 bytes) in /home/asyste3/wouu.com.ar/xd3/vendor/symfony/debug/Exception/FatalErrorException.php on line 1
+[09-Nov-2018 21:57:06 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 98304 bytes) in Unknown on line 0
+[09-Nov-2018 21:57:15 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) in /home/asyste3/wouu.com.ar/xd3/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/GuardsAttributes.php on line 188
+[09-Nov-2018 21:57:15 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 147456 bytes) in /home/asyste3/wouu.com.ar/xd3/vendor/composer/ClassLoader.php on line 444
+[09-Nov-2018 21:57:15 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 86016 bytes) in Unknown on line 0
