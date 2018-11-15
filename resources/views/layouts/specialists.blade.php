@@ -77,7 +77,7 @@ use App\activeProblem;
      #input-buscar{width: 100%;height:38px; font-size: 15px;}
      #btn-filtros{border-style:solid; border-color:#ced4da;height:37px}
      #contenedor-cartas{max-width: 1200px;margin-left:0px;width:950px;}
-      #card-body-prof{height: 100%;}
+      #card-body-prof{height: 290px;}
       #img-prof{height:215px;}
       #name{font-size: 20px;}
     #city{font-size: 15px;}
@@ -88,17 +88,19 @@ use App\activeProblem;
     .card-columns {   -webkit-column-count: 4;  -moz-column-count: 4; column-count: 4;  text-align:center;  }
     #form-busqueda{width:100%;}
     #select-categoria{height: 47px; font-size: 15px; font-weight: bold;background: #e4e4e4;width: 200px;}
-     #contenedor-busqueda{margin-top:0;}
-     #titulo-busqueda{font-size: 30px;color: #699d46;font-weight: bold;}
-     #subtitulo-busqueda{font-size: 20px;color: #5383a2;}
-     #input-buscar{width: 100%;height:38px; font-size: 15px;}
-     #btn-filtros{border-style:solid; border-color:#ced4da;height:37px}
-     #contenedor-cartas{max-width: 1200px;margin-left:0px;width:950px;}
-      #card-body-prof{height: 100%;}
-      #img-prof{height:215px;}
-      #name{font-size: 20px;}
+    #contenedor-busqueda{margin-top:0;}
+    #titulo-busqueda{font-size: 30px;color: #699d46;font-weight: bold;}
+    #subtitulo-busqueda{font-size: 20px;color: #5383a2;}
+    #input-buscar{width: 100%;height:38px; font-size: 15px;}
+    #btn-filtros{border-style:solid; border-color:#ced4da;height:37px}
+    #contenedor-cartas{max-width: 1200px;margin-left:0px;width:950px;}
+    #card-body-prof{height: 290px;}
+    #img-prof{height:215px;}
+    #name{font-size: 20px;}
     #city{font-size: 15px;}
     #specialtyCard{ white-space: nowrap;color: #fd7c68;font-size:14px;}
+    .pagination{font-size: 30px;margin: 0 auto;}
+
 }
 </style>
 
@@ -114,47 +116,39 @@ transition: all 500ms ease;
 </style>
 <body style="background-image: url('../img/fondo.jpg');">
 
-<br><br><br><br><br><br><br>
-<style>
-    #card:hover{
-        box-shadow: 4px 7px 14px 3px #888888;position:fixed;
-    -webkit-transition: all 500ms ease;
--moz-transition: all 500ms ease;
--ms-transition: all 500ms ease;
--o-transition: all 500ms ease;
-transition: all 500ms ease;
-    }
-</style>
+<br><br><br><br>
 
 <script>
 $(document).ready(function(){
 $("#myInput").on("keyup", function() {
   var value = $(this).val().toLowerCase();
-  $("#table tr").filter(function() {
+  $(".card").filter(function() {
     $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
   });
 });
-});
-</script>
-
-<script>
-
-$(document).ready(function(){
-var value = $("#myInput").val().toLowerCase();
-  $("#table tr").filter(function() {
-    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-  });
 });
 </script>
 
 <script>
 $(document).ready(function(){
     var value = $("#categoriaPrincipal").val().toLowerCase();
-    $("#table tr").filter(function() {
+    $(".card").filter(function() {
       $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
     });
   });
 </script>
+
+
+<script>
+
+$(document).ready(function(){
+var value2 = $("#myInput").val().toLowerCase();
+  $(".card").filter(function() {
+    $(this).toggle($(this).text().toLowerCase().indexOf(value2) > -1)
+  });
+});
+</script>
+
 
 
 <div class="container" id="contenedor-busqueda">
@@ -385,14 +379,14 @@ $(document).ready(function(){
 </style>
 
 
-<div id="contenedor-cartas" class="container">
-<div class="row" style="margin:0">
-<div class="card-columns">
-    <table id="table">
+
+<div class="container">
+<div class="row" id="row" style="margin:0">
       <?php
+      $cantidad_resultados = 3;
       $x = 1;
       $clase_btn = 'a';
-        $arraySpecialist = Specialist::all();
+        $arraySpecialist = Specialist::paginate(9);
         for ($i = 0 ; $i < count($arraySpecialist); $i++){
 
     switch ($clase_btn) {
@@ -414,9 +408,8 @@ $(document).ready(function(){
     }
             ?>
 
-        <tr>
-            <td>
-        <div id="card" class="card" style="position: relative;">
+  <div class="col-md-4">
+        <div id="card" class="card" style="position: relative;margin-bottom: 12px;">
         <img id="img-prof" class="card-img-top" height="171" width="251" alt="Card image cap" src="{{ $arraySpecialist[$i]['ruta'] }}" >
         <div class="card-body" id="card-body-prof">
             <h5 class="card-title text-center" id="name">  {{ $arraySpecialist[$i]['name'] . ' ' . $arraySpecialist[$i]['lastName']}}</h5>
@@ -541,12 +534,13 @@ $(document).ready(function(){
                 </div>
              </div>
         </div>
-        </td></tr>
 
+</div></div>
     <?php } ?>
-        </table>
-</div></div></div></td></tr>
 
+
+</div></div>
+  <div class="row" style="margin-bottom: 12px;">{!!$arraySpecialist->render()!!}</div>
 <script>
 $("#btn-filtros").click (function(){
     $("#filtros").show("slow");
@@ -1050,7 +1044,7 @@ $("#Hogar_y_Construccion").change(function(){
 $(document).ready(function(){
   $("#categoriaPrincipal").on("change", function() {
     var value = $(this).val().toLowerCase();
-    $("#table tr").filter(function() {
+    $(".card").filter(function() {
       $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
     });
   });
@@ -1061,7 +1055,7 @@ $(document).ready(function(){
 $(document).ready(function(){
   $("#Asesoramiento_Contable_y_Legal").on("change", function() {
     var value = $(this).val().toLowerCase();
-    $("#table tr").filter(function() {
+    $(".card").filter(function() {
       $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
     });
   });
@@ -1072,7 +1066,7 @@ $(document).ready(function(){
 $(document).ready(function(){
   $("#Mantenimiento").on("change", function() {
     var value = $(this).val().toLowerCase();
-    $("#table tr").filter(function() {
+    $(".card").filter(function() {
       $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
     });
   });
@@ -1083,7 +1077,7 @@ $(document).ready(function(){
 $(document).ready(function(){
   $("#Hogar_y_Construccion").on("change", function() {
     var value = $(this).val().toLowerCase();
-    $("#table tr").filter(function() {
+    $(".card").filter(function() {
       $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
     });
   });
@@ -1094,7 +1088,7 @@ $(document).ready(function(){
 $(document).ready(function(){
   $("#abogados_tipos").on("change", function() {
     var value = $(this).val().toLowerCase();
-    $("#table tr").filter(function() {
+    $(".card").filter(function() {
       $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
     });
   });

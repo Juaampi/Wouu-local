@@ -437,10 +437,10 @@ use App\Chat;
 <br><br><br><br>
 <div class="row" id="contenedor-animation">
     <div class="col-md-12">
-            <div>
+        <div>
             <img id="img-animation" src="img/animacionwouu.gif" />
+        </div>
     </div>
-</div>
 </div><br><br>
 <div class="row" style="margin:0">
             <div style="margin:0 auto;">
@@ -597,78 +597,6 @@ $("#especialidad").change(function(){
         $("#text").css("display", "none");
       }
   });
-</script>
-
-
-
-<style>
-
-   @media (min-width: 576px) {
-
-    #footer {
-        background:white;
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-        font-size: 25px;
-
-    }
-
-    #ingresobtn{
-         margin-top: 22px;
-    height: 95px;
-    width: 290px;
-    text-align: center;
-    line-height: 70px;
-    font-size: 40px;
-    }
-    #registrobtn{
-    margin-bottom: 120px;
-    height: 95px;
-    width: 290px;
-    text-align: center;
-    line-height: 70px;
-    font-size: 40px;
-    }
-    #text-description{
-        font-size:35px;
-    }
-}
-    @media (min-width: 1200px) {
-        #footer {
-            color:black;
-            background: white;
-            height: 100px;
-            margin:0;
-            font-size: 18px;
-            position: relative;
-        }
-         #ingresobtn{
-            margin-top: 0px;
-    margin-bottom: 0px;
-    height: 60;
-    width: 200;
-    text-align: center;
-    line-height: 40px;
-    font-size: 20px;
-    }
-    #registrobtn{
-      margin-top: 0px;
-    margin-bottom: 0px;
-    height: 60;
-    width: 200;
-    text-align: center;
-    line-height: 40px;
-    font-size: 20px;
-    }
-    #text-description{
-        font-size:18px;
-    }
-}
-
-</style>
-
-
 </script>
 
    <style>

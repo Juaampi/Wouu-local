@@ -186,15 +186,16 @@ $specialists = Specialist::where('id', '=', $idSpecialist)->get();
         <br>
     <div class="col-md-8">
 
-                       <div class="text-center" style="font-size:35px;font-weight: bold;" >{{$specialists[0]['name'] . ' ' . $specialists[0]['lastName']}}
-                 </div>
+                       <div class="text-center" style="font-size:35px;font-weight: bold;" >{{$specialists[0]['name'] . ' ' . $specialists[0]['lastName']}}<br></div>
+                       <div class="alert alert-dark text-center"><strong>Especialidad:</strong> {{ $specialists[0]['specialty'] }}</div>
+                 
                  <table cellspacing="80px">
                      <tr><td style="padding: 20px 110px;">
                 <div id="noEdit" style="font-family: 'Lato', sans-serif;color:#565656;">
                     <!-- DATOS PERSONALES  -->
                     <p class="card-text"> <strong>DNI: </strong>{{ $specialists[0]['dni'] }} </p>
                     <p class="card-text"> <strong>Telefono:</strong> {{ $specialists[0]['phone'] }} </p>
-                      <p class="card-text"> <strong>Provincia:</strong> {{ $specialists[0]['province'] }} </p>
+                      <p class="card-text"> <strong>Ciudad:</strong> {{ $specialists[0]['province'] }} </p>
                     <p class="card-text"> <strong>Horario inicial: </strong>{{ $specialists[0]['initSchedule'] }} </p>
                 </div>
                 </td>
@@ -203,7 +204,7 @@ $specialists = Specialist::where('id', '=', $idSpecialist)->get();
                     <!-- DATOS PERSONALES  -->
                       <p class="card-text"> <strong>E-mail: </strong> {{ $specialists[0]['email'] }} </p>
                      <p class="card-text"> <strong>Ciudad: </strong> {{ $specialists[0]['city'] }} </p>
-                    <p class="card-text"> <strong>Especialidad:</strong> {{ $specialists[0]['lastName'] }} </p>
+                    <p class="card-text"> <strong>Fecha de Nacimiento:</strong> {{ $specialists[0]['date'] }} </p>
                     <p class="card-text"> <strong>Horario Final:</strong> {{ $specialists[0]['finalSchedule'] }} </p>
                 </div>
                 </td>

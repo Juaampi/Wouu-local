@@ -13,58 +13,70 @@ class specialistController extends Controller
         $specialist->delete();
         return redirect('/adminPanel');
     }
-    
+
     public function editSpecialist(Request $request){
       $id = $request['id'];
-      $specialist = new Specialist;
-            
+
          if(!empty($request['description'])){
-          $specialist->find($id)->update(['description' => $request['description']]);
+          $specialist = Specialist::find($id);
+          $specialist->description = $request['description'];
           $specialist->save();
-        }    
-        
+        }
+
         if(!empty($request['name'])){
-          $specialist->find($id)->update(['name' => $request['name']]);
+
+          $specialist = Specialist::find($id);
+          $specialist->name = $request['name'];
           $specialist->save();
         }
         if(!empty($request['lastName'])){
-          $specialist->find($id)->update(['lastName' => $request['lastName']]);
+          $specialist = Specialist::find($id);
+          $specialist->lastName = $request['lastName'];
           $specialist->save();
         }
         if(!empty($request['dni'])){
-          $specialist->find($id)->update(['dni' => $request['dni']]);
+          $specialist = Specialist::find($id);
+          $specialist->dni = $request['dni'];
           $specialist->save();
         }
         if(!empty($request['email'])){
-          $specialist->find($id)->update(['email' => $request['email']]);
+          $specialist = Specialist::find($id);
+          $specialist->email = $request['email'];
           $specialist->save();
         }
         if(!empty($request['phone'])){
-          $specialist->find($id)->update(['phone' => $request['phone']]);
+          $specialist = Specialist::find($id);
+          $specialist->phone = $request['phone'];
           $specialist->save();
         }
         if(!empty($request['zone'])){
-          $specialist->find($id)->update(['zone' => $request['zone']]);
+          $specialist = Specialist::find($id);
+          $specialist->zone = $request['zone'];
           $specialist->save();
         }
         if(!empty($request['city'])){
-          $specialist->find($id)->update(['city' => $request['city']]);
+          $specialist = Specialist::find($id);
+          $specialist->city = $request['city'];
           $specialist->save();
         }
         if(!empty($request['province'])){
-          $specialist->find($id)->update(['province' => $request['province']]);
+          $specialist = Specialist::find($id);
+          $specialist->province = $request['province'];
           $specialist->save();
         }
         if(!empty($request['specialty'])){
-          $specialist->find($id)->update(['specialty' => $request['specialty']]);
+          $specialist = Specialist::find($id);
+          $specialist->specialty = $request['specialty'];
           $specialist->save();
         }
         if(!empty($request['initSchedule'])){
-          $specialist->find($id)->update(['initSchedule' => $request['initSchedule']]);
+          $specialist = Specialist::find($id);
+          $specialist->initSchedule = $request['initSchedule'];
           $specialist->save();
         }
         if(!empty($request['finalSchedule'])){
-        $specialist->find($id)->update(['finalSchedule' => $request['finalSchedule']]);
+        $specialist = Specialist::find($id);
+        $speciaist->finalSchedule = $request['finalSchedule'];
         $specialist->save();
       }
 
@@ -82,7 +94,7 @@ class specialistController extends Controller
 		  $email_subject = "formulario de contacto (Vía Web) ";
 		  $email_from = $request['email'];
 
-		$email_message = "Formulario enviado desde la web para ponerse en contacto con wou!:\n\n";		
+		$email_message = "Formulario enviado desde la web para ponerse en contacto con wou!:\n\n";
 		$email_message .= "E-mail: " . $request['email'] . "\n";
 
 		$headers = 'From: '.$email_from."\r\n".
@@ -93,7 +105,7 @@ class specialistController extends Controller
     return redirect('/index');
 
     }
-    
+
      public function savePasswordSpecialist(Request $request){
       $id = $request['idUser'];
       $specialist = Specialist::find($id);
@@ -107,23 +119,23 @@ class specialistController extends Controller
     public function activate(Request $request){
         $id = $request['idSpecialist'];
         $specialist = Specialist::find($id);
-        $specialist->activate = 2; 
+        $specialist->activate = 2;
         $specialist->save();
         return redirect('/adminPanel');
     }
     public function cancelateImg(Request $request){
         $id = $request['idSpecialist'];
         $specialist = Specialist::find($id);
-        $specialist->activate = 2; 
+        $specialist->activate = 2;
         $specialist->ruta = '../img/perfil.jpg';
         $specialist->save();
         return redirect('/adminPanel');
-    }   
-    
+    }
+
     public function busqueda(Request $request){
         $abuscar = $request['Abuscar'];
         $categoria = $request['categoria'];
         return view('../layouts/specialists')->with('abuscar', $abuscar)->with('categoria', $categoria);
     }
-    
+
 }
