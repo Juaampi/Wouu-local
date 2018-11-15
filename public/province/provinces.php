@@ -20,7 +20,7 @@ th {text-align: left;}
 <?php
 $q = $_GET['q'];
 
-$con = mysqli_connect('localhost','asyste3','8e3BGuwo8EH7','asyste3_wouu');
+$con = mysqli_connect('localhost','root','','wou');
 if (!$con) {
     die('Could not connect: ' . mysqli_error($con));
 }
