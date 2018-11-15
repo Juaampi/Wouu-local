@@ -32,73 +32,15 @@ use App\Chat;
     <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 	  <script	src="https://static.iguanafix.com/static/v2/js/ext-all-min.js?v=157.14.P" type="text/javascript"></script>
+    <script	src="../js/ciudades.js" type="text/javascript"></script>
 		<script	src="https://static.iguanafix.com/static/v2/js/marb-all-min.js?v=170.0.P" type="text/javascript"></script>
 		<link type="text/css" rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' />
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <title>Wouu! Ya está resuelto!</title>
 </head>
 
-<style>
-    .modal-backdrop.in{
-
-    }
-</style>
-
-<script>
-function showUser(str) {
-    if (str == "") {
-        document.getElementById("ciudades").innerHTML = "";
-        return;
-    } else {
-        if (window.XMLHttpRequest) {
-            // code for IE7+, Firefox, Chrome, Opera, Safari
-            xmlhttp = new XMLHttpRequest();
-        } else {
-            // code for IE6, IE5
-            xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
-        }
-        xmlhttp.onreadystatechange = function() {
-            if (this.readyState == 4 && this.status == 200) {
-                document.getElementById("ciudades").innerHTML = this.responseText;
-            }
-        };
-        xmlhttp.open("GET","../province/provinces.php?q="+str,true);
-        xmlhttp.send();
-    }
-}
-</script>
-
-
-<script>
-function showUser2(str) {
-    if (str == "") {
-        document.getElementById("ciudades2").innerHTML = "";
-        return;
-    } else {
-        if (window.XMLHttpRequest) {
-            // code for IE7+, Firefox, Chrome, Opera, Safari
-            xmlhttp = new XMLHttpRequest();
-        } else {
-            // code for IE6, IE5
-            xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
-        }
-        xmlhttp.onreadystatechange = function() {
-            if (this.readyState == 4 && this.status == 200) {
-                document.getElementById("ciudades2").innerHTML = this.responseText;
-            }
-        };
-        xmlhttp.open("GET","../province/provinces.php?q="+str,true);
-        xmlhttp.send();
-    }
-}
-</script>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-
-
 <body style="background:#eaeaea;">
-
-
 
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" style="max-width: 900px;" role="document">
@@ -491,9 +433,6 @@ function showUser2(str) {
     </div>
   </div>
 </div> <?php }  }?>
-
-
-@yield('menuu')
 
 <br><br><br><br>
 <div class="row" id="contenedor-animation">
